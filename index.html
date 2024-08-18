@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Bootstrap Portfolio/Resume Theme for Developers</title>
-    <!-- Meta -->
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,54 +13,55 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
     
-    <!-- FontAwesome JS -->
+    
     <script defer src="assets/fontawesome/js/all.js"></script>
     
-    <!-- Global CSS -->
+    
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">  
     
-    <!-- github calendar css -->
+    
     <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar-responsive.css">
-    <!-- github activity css -->  
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">  
     <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
 
-    <!-- Theme CSS -->  
+    
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
     
 </head> 
 
 <body>
-    <!-- ******HEADER****** --> 
+    
     <header class="header">
         <div class="container">     
 	        <div class="row align-items-center">
 			    <div class="col">         
-		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.png" alt="profile image" />
+		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.jpg" alt="profile image" />
 		            <div class="profile-content">
-		                <h1 class="name">James Lee</h1>
-		                <h2 class="desc">Web App Developer</h2>   
+		                <h1 class="name">Kadambala Dharanidhar</h1>
+		                <h2 class="desc">Software Engineer</h2>
 		                <ul class="social list-inline">
-		                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-		                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-		                    <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt"></i></a></li>    
-		                    <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li>   
-		                    <li class="list-inline-item last-item"><a href="#"><i class="fab fa-codepen"></i></a></li>                
+		                    
+		                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/kdharanidhar" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+		                    <li class="list-inline-item"><a href="https://github.com/kdharanidhar" target="blank"><i class="fab fa-github-alt"></i></a></li>    
+                            <li class="list-inline-item"><a href="https://www.instagram.com/_dharani_dhar" target="_blank"><i class="fab fa-instagram"></i></a></li>    
+		                    
+		                    
 		                </ul> 
-		            </div><!--//profile-->
-			    </div><!--//col-->
+		            </div>
+			    </div>
 	            <div class="col-12 col-md-auto">
-		            <div class="dark-mode-switch d-flex">
+		            <!-- <div class="dark-mode-switch d-flex">
 						<div class="form-check form-switch mx-auto mx-md-0">
 							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" />
 							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
 						</div>
-			        </div><!--//dark-mode-switch-->
-	                <a class="btn btn-cta-primary" href="https://themes.3rdwavemedia.com/" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>        
-	            </div><!--//col-->
-	        </div><!--//row-->         
-        </div><!--//container-->
-    </header><!--//header-->
+			        </div> -->
+	                <a class="btn btn-cta-primary" href="mailto:dharani556030@gmail.com?subject=[Via Portfolio]: Hi There!&body=Hi Dharanidhar, I came across your profile today." target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>        
+	            </div>
+	        </div>
+        </div>
+    </header>
     
     <div class="container sections-wrapper py-5">
         <div class="row">
@@ -69,15 +70,75 @@
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>Write a brief intro about yourself. It's a good idea to include your personal interests and hobbies as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Commodo ligula eget dolor. Aenean massa.</p>
+                            <p>I am a competent engineer who takes ownership of the product, who is inclined towards perfection and delivering highest standards of output and who likes to deep dive and gain a robust understanding of tech.
+                            I have worked towards building large scale backend applications that are highly scalable, available, secure and reliable for the fintech space.
+                            I am an experienced software developer with good knowledge of techs like Python, Java, Databases, Redis, System design, kubernetes & data structures. I excel in daily SDLC tasks like writing code, code reviews, designing and planning feature development, code debugging, documentation, and resolving prod issues.</p>
                          
-                        </div><!--//content-->
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-    
-               <section class="latest section">
+                        </div>
+                    </div>
+                </section>
+
+                <section class="experience section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Latest Projects</h2>
+                        <h2 class="heading">Work Experience (<span id="yoe"></span>) </h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Software Development Engineer - <span class="place"><a href="https://juspay.in/">Juspay</a></span> <span class="year">(Apr 2022 - Present)</span></h3>
+                                <span class="badge badge-theme">Haskell</span>
+                                <span class="badge badge-theme">Python</span>
+                                <span class="badge badge-theme">PostgreSQL</span>
+                                <span class="badge badge-theme">Redis</span>
+                                <span class="badge badge-theme">Kafka</span>
+                                <span class="badge badge-theme">Kubernetes</span>
+                                <span class="badge badge-theme">Cryptography & Signatures</span>
+                                <span class="badge badge-theme">GCP</span>
+                                <span class="badge badge-theme">Monitoring</span>
+                                <span class="badge badge-theme">Alerting</span>
+                                <span class="badge badge-theme">HLD</span>
+                                <span class="badge badge-theme">LLD</span>
+                                <p>As an SDE at Juspay, I build large scale backend services that are highly available(99.9%), scalable, secure, reliable and performant(5000 rps) for the UPI(3Bn Txn/day) payments ecosystem in collaboration with GPay and NPCI.</p>
+                                <ul>
+                                    <li>Designed, developed, tested, maintained and documented the microservices for the Credit Card on UPI and UPI International features from scratch. CC on UPI contributes around 5% of all the UPI transactions.</li>
+                                    <li>Implemented a layer 7 proxy to perform API migration for the WhatsApp UPI PSP migration project. Performed database migration ensuring data consistency and integrity. Achieved near-zero downtime.</li>
+                                    <li>Contributing towards business logic for ever evolving payment requirements, improvement and maintaining UPI microservice handling 5k rps traffic, 1000 logically sharded database, cache, encryption service and cloud components.</li>
+                                    <li>Prepared an XML signing and signature verification module to mitigate MITM attacks and data integrity issues. Internally used a fork of the open source library hsaml2 and modified it as per the use case.</li>
+                                    <li>Designed and implemented an internal automated testing tool that helped in reducing manual efforts, diminishing human errors and slashing the testing time by more than 90%.</li>
+                                    <li>Setup a monitoring and alerting improved process to reduce the turnaround time to any production issue to 20 secs.</li>
+                                    <li>I excel in daily SDLC tasks like developing and reviewing code, design discussions, driving app performance improvements, testing, designing logics, scripting and automations, debugging issues and documentations.</li>
+                                </ul>
+                            </div>
+                            <div class="item">
+                                <h3 class="title">Software Engineer - <span class="place"><a href="https://addverb.com/">Addverb</a></span> <span class="year">(Aug 2021 - Mar 2022)</span></h3>
+                                <span class="badge badge-theme">Java</span>
+                                <span class="badge badge-theme">Spring Boot</span>
+                                <span class="badge badge-theme">Python</span>
+                                <span class="badge badge-theme">Flask</span>
+                                <span class="badge badge-theme">Kafka</span>
+                                <span class="badge badge-theme">Redis</span>
+                                <span class="badge badge-theme">SQL</span>
+                                <ul>
+                                    <li>Architected a microservice for the warehouse management system for managing the movement with above 200 moving parts and maintaining inventory of empty pallets within the warehouse.</li>
+                                    <li>Engineered REST APIs to streamline order fulfillment flow by integrating screen input with printer and weight machines across 1000+ devices, resulting in a 40% reduction in order fulfillment time for the client.</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="item">
+                                <h3 class="title">Software Engineer Intern - <span class="place"><a>Codenscious</a></span> <span class="year">(May 2019 - Jul 2019)</span></h3>
+                                <span class="badge badge-theme">Python</span>
+                                <span class="badge badge-theme">Django</span>
+                                <span class="badge badge-theme">DialogFlow</span>
+                                <ul>
+                                    <li>Integrated third party APIs into a chat service and built complex conversation flows using the DialogFlow service.</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>
+
+               <!-- <section class="latest section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Latest Blogs</h2>
                         <div class="content">    
                                                
                             <div class="item featured text-center">
@@ -95,9 +156,9 @@
                                     
                                 <div class="desc text-start">                                    
                                     <p>You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
-                                </div><!--//desc-->         
+                                </div>
                                 <a class="btn btn-cta-secondary" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-4-template-for-saas-businesses/" target="_blank"><i class="fas fa-thumbs-up"></i> Back my project</a>                 
-                            </div><!--//item-->
+                            </div>
                             <hr class="divider" />
                             <div class="item row">
                                 <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/" target="_blank">
@@ -107,8 +168,8 @@
                                     <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/" target="_blank">CoderPro - Boootstrap Startup Template For Software Projects</a></h3>
                                     <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
                                     <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
+                                </div>
+                            </div>
                             
                             <div class="item row">
                                 <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-4-vcard-portfolio-template-for-software-developers/" target="_blank">
@@ -118,8 +179,8 @@
                                     <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-4-vcard-portfolio-template-for-software-developers/" target="_blank">DevCard - Boootstrap Portfolio Template for Software Developers</a></h3>
                                     <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
                                     <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-4-vcard-portfolio-template-for-software-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
+                                </div>
+                            </div>
                             
                              <div class="item row">
                                 <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
@@ -129,8 +190,8 @@
                                     <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">Instance - Boootstrap Portfolio Template for Aspiring Full Stack Developers</a></h3>
                                     <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
                                     <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
+                                </div>
+                            </div>
                             
                             <div class="item row">
                                 <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">
@@ -140,8 +201,8 @@
                                     <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">Nova Pro - Boootstrap Template for Mobile Startups</a></h3>
                                     <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus.</p>
                                     <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->                            
+                                </div>
+                            </div>
                             <div class="item row">
                                 <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">
                                 <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-5.png" alt="project name" />
@@ -150,136 +211,173 @@
                                     <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">DevStudio - Boootstrap Template for WebDev Agencies and Freelance Developers</a></h3>
                                     <p class="mb-2"> You can put one of your secondary projects here. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
                                     <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
+                                </div>
+                            </div>
                             
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                
-                </section><!--//section-->
+                        </div>
+                    </div>
+                </section> -->
                 
                 <section class="projects section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Other Projects</h2>
+                        <h2 class="heading">Projects</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap4-resume-cv-template-for-developers-pillar/" target="_blank">Pillar - Free Boootstrap Resume/CV Template for Developers</a> <span class="badge badge-theme">Free</span></h3>
-                                <p class="summary">Provide a brief description of your project. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatu.</p>
-                                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap4-resume-cv-template-for-developers-pillar/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                            </div><!--//item-->
+                                <h3 class="title"><a href="" target="_blank">Eventy</a>
+                                    <!-- <span class="badge badge-theme">Free</span> -->
+                                </h3>
+                                <p class="summary">An event management microservice - created a token authentication system and 6 APIs for login/signup and CRUD operations on calendar events. Introduced a calendar UI as an implementation of the service.</p>
+                                <p>
+                                    <a class="more-link" href="https://kdharanidhar.github.io/eventy/" target="_blank"><i class="fas fa-external-link-alt"></i>Demo</a>
+                                    <a class="more-link" href="https://github.com/kdharanidhar/eventy" target="_blank"><i class="fas fa-external-link-alt"></i>Repo</a>
+                                </p>
+                            </div>
                             <div class="item">
-                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/speciality/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank">DevBlog - Free Boootstrap Blog Template for Developers</a> <span class="badge badge-theme">Free</span></h3>
-                                <p class="summary">Provide a brief description of your project. Maecenas ornare ultricies risus, in fermentum augue consectetur in. Vestibulum vitae mauris iaculis, sollicitudin velit in, molestie nulla. </p>
-                                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/speciality/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                            </div><!--//item-->
+                                <h3 class="title"><a href="" target="_blank">Pringage</a>
+                                    <!-- <span class="badge badge-theme">Free</span> -->
+                                </h3>
+                                <p class="summary">Principal Global hackathon - microservice for employee engagement platform. 3rd runner up position.</p>
+                                <!-- <p><a class="more-link" href="" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p> -->
+                            </div>
                             <div class="item">
-                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/nova-bootstrap-landing-page-template-for-mobile-apps/" target="_blank">Nova - Free App Landing Page Template for App Developers</a> <span class="badge badge-theme">Free</span></h3>
-                                <p class="summary">Provide a brief description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel purus enim. Etiam tortor felis, fermentum ac ultrices sed.</p>
-                                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/nova-bootstrap-landing-page-template-for-mobile-apps/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                            </div><!--//item-->
+                                <h3 class="title"><a href="" target="_blank">Net Worth Calculator</a>
+                                    <!-- <span class="badge badge-theme">Free</span> -->
+                                </h3>
+                                <p class="summary">Achieve Your Net-Worth targets easily with this easy to use and intuitive application.</p>
+                                <p><a class="more-link" href="https://github.com/kdharanidhar/Net-Worth-Calculator" target="_blank"><i class="fas fa-external-link-alt"></i>Repo</a></p>
+                            </div>
+                            <div class="item">
+                                <h3 class="title"><a href="" target="_blank">Konnex</a>
+                                    <!-- <span class="badge badge-theme">Free</span> -->
+                                </h3>
+                                <p class="summary">Airbus Aerothon 3.0 - Konnex integrates the end to end user experience and application support into one single place, which is accessible as an onscreen floating widget on top of any application/webpage, with one single click and looks simple + user friendly, that connects the users with the IT product teams.</p>
+                                <p><a class="more-link" href="https://github.com/kdharanidhar/Script-Kiddies-Airbus-Aerothon" target="_blank"><i class="fas fa-external-link-alt"></i>Repo</a></p>
+                            </div>
                             
-                            <a class="btn btn-cta-secondary" href="#">More on GitHub <i class="fas fa-chevron-right pt-1"></i></a>
+                            <a class="btn btn-cta-secondary" href="https://github.com/kdharanidhar" target="_blank">More on GitHub <i class="fas fa-chevron-right pt-1"></i></a>
                             
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-                
-                <section class="experience section">
+                        </div>
+                    </div>
+                </section>
+
+                <section class="projects section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Work Experience</h2>
+                        <!-- <h2 class="heading">Certifications</h2>
                         <div class="content">
-                            <div class="item">
-                                <h3 class="title">Co-Founder & Lead Developer - <span class="place"><a href="#">Startup Hub</a></span> <span class="year">(2023 - Present)</span></h3>
-                                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Software Engineer - <span class="place"><a href="#">Google</a></span> <span class="year">(2020 - 2023)</span></h3>
-                                <p>Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <h3 class="title">Software Engineer - <span class="place"><a href="#">eBay</a></span> <span class="year">(2019 - 2020)</span></h3>
-                                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
-                            </div><!--//item-->
-                            
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-                <section class="github section">
+                            <div class="item" style="display: flex; gap: 10px;">
+                                <div class="certification" style="display: flex; flex-direction: column; align-items: center;">
+                                    <h3 class="title">
+                                        <a href="https://www.udemy.com/certificate/UC-004b1ef2-ecf8-4aec-be7a-9d6cfedb1090/" target="_blank"><i class="fas fa-external-link-alt"></i> Java Certification</a>
+                                    </h3>
+                                    <img class="img-fluid project-image rounded shadow-sm" src="https://udemy-certificate.s3.amazonaws.com/image/UC-004b1ef2-ecf8-4aec-be7a-9d6cfedb1090.jpg?v=1619267425000" alt="Udemy Java" style="height: 300px; width: auto;" />
+                                </div>
+                                <div class="certification" style="display: flex; flex-direction: column; align-items: center;">
+                                    <h3 class="title">
+                                        <a href="https://www.codechef.com/certificates/public/fde5ad2" target="_blank"><i class="fas fa-external-link-alt"></i> DSA Certification</a>
+                                    </h3>
+                                    <img class="img-fluid project-image rounded shadow-sm" src="https://s3.amazonaws.com/codechef_shared/public_certificates/images/certi_fde5ad2.jpeg" alt="DSA Certification" style="height: 300px; width: auto;" />
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </section>
+                
+                
+                
+                <!-- <section class="github section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">My GitHub</h2>
                         <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. 
                         
                         <div id="github-graph" class="github-graph">
 
-                        </div><!--//github-graph-->
+                        </div>
 
                         <p>You can also embed your GitHub activities using Casey Scarborough's <a href="https://github.com/caseyscarborough/github-activity" target="_blank">GitHub Activity Stream</a> widget.        
-                        <!--//Usage: https://caseyscarborough.com/projects/github-activity/ -->                       
-                        <div id="ghfeed" class="ghfeed">
-                        </div><!--//ghfeed-->
                         
-                    </div><!--//secton-inner-->
-                </section><!--//section-->
-            </div><!--//primary-->
+                        <div id="ghfeed" class="ghfeed">
+                        </div>
+                        
+                    </div>
+                </section> -->
+            </div>
             <div class="secondary col-lg-4 col-12">
                  <aside class="info aside section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>San Francisco, US</li>
-                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">jameslee@website.com</a></li>
-                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="#">https://www.website.com</a></li>
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Bangalore, Karnataka, India</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto:kdharanidhar@gmail.com?subject=[Via Portfolio]: Hi There!&body=Hi Dharanidhar, I came across your profile today." target="_blank">kdharanidhar@gmail.com</a></li>
+                                <!-- <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="#">https://www.website.com</a></li> -->
                             </ul>
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//aside-->
+                        </div>
+                    </div>
+                </aside>
                 
                 <aside class="skills aside section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Skills</h2>
                         <div class="content">
-                            <p class="intro">
-                                Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Github profile so people can get more info there.</p>
+                            <!-- <p class="intro">
+                                Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Github profile so people can get more info there.
+                            </p> -->
                             
                             <div class="skillset">
                                
                                 <div class="item">
-                                    <h3 class="level-title">Python &amp; Django<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <h3 class="level-title">Python &amp; Flask<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="You can use the tooltip to explain more about your skill level...">
+                                        <!-- <i class="fas fa-info-circle"></i>Expert</span> -->
+                                    </h3>
 
                                     <div class="level-bar progress">
-									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 96%" aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></div>
-									</div><!--//level-bar-->                               
-                                </div><!--//item-->
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 90%" aria-valuenow="90"  aria-valuemin="0" aria-valuemax="90"></div>
+									</div>
+                                </div>
                                 
                                 <div class="item">
-                                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <h3 class="level-title">Java &amp; SpringBoot<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="You can use the tooltip to explain more about your skill level...">
+                                        <!-- <i class="fas fa-info-circle"></i>Expert</span> -->
+                                    </h3>
                                     <div class="level-bar progress">
-									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 94%" aria-valuenow="94"  aria-valuemin="0" aria-valuemax="94"></div>
-									</div><!--//level-bar-->                                   
-                                </div><!--//item-->
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 85%" aria-valuenow="85"  aria-valuemin="0" aria-valuemax="85"></div>
+									</div>
+                                </div>
                                 
                                 <div class="item">
-                                    <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <h3 class="level-title">PostgreSQL &amp; Redis<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="You can use the tooltip to explain more about your skill level...">
+                                        <!-- <i class="fas fa-info-circle"></i>Expert</span> -->
+                                    </h3>
                                     <div class="level-bar progress">
-									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 93%" aria-valuenow="93"  aria-valuemin="0" aria-valuemax="96"></div>
-									</div><!--//level-bar-->                                  
-                                </div><!--//item-->
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 80%" aria-valuenow="80"  aria-valuemin="0" aria-valuemax="80"></div>
+									</div>
+                                </div>
                                 
                                 <div class="item">
-                                    <h3 class="level-title">Ruby on Rails<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <h3 class="level-title">Kubernetes &amp; Docker <span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="You can use the tooltip to explain more about your skill level...">
+                                        <!-- <i class="fas fa-info-circle"></i>Pro</span> -->
+                                    </h3>
                                     <div class="level-bar progress">
-									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 86%" aria-valuenow="86"  aria-valuemin="0" aria-valuemax="96"></div>
-									</div><!--//level-bar-->                                  
-                                </div><!--//item-->
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 65%" aria-valuenow="65"  aria-valuemin="0" aria-valuemax="65"></div>
+									</div>
+                                </div>
+
+                                <div class="item">
+                                    <h3 class="level-title">Google Cloud Platform<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="You can use the tooltip to explain more about your skill level...">
+                                        <!-- <i class="fas fa-info-circle"></i>Pro</span> -->
+                                    </h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 75%" aria-valuenow="75"  aria-valuemin="0" aria-valuemax="75"></div>
+									</div>
+                                </div>
                                 
                                 <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p> 
                             </div>              
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//section-->
+                        </div>
+                    </div>
+                </aside>
                 
-                <aside class="testimonials aside section">
+                <!-- <aside class="testimonials aside section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Testimonials</h2>
                         <div class="content">
@@ -288,29 +386,32 @@
                                     <p><i class="fas fa-quote-left"></i>James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
                                 </blockquote>                
                                 <p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>                                                             
-                            </div><!--//item-->
+                            </div>
                             
                             <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> 
                             
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                        </div>
+                    </div>
+                </aside> -->
                 
                 <aside class="education aside section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Education</h2>
                         <div class="content">
                             <div class="item">                      
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> MSc Computer Science</h3>
-                                <h4 class="university">University College London <span class="year">(2018-2019)</span></h4>
-                            </div><!--//item-->
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BTech Information Technology</h3>
+                                <h4 class="university">Shri GS Institute of Technology & Science <span class="year">(2017-2021)</span></h4>
+                            </div>
                             <div class="item">
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BSc Computer Science</h3>
-                                <h4 class="university">University of Bristol <span class="year">(2014-2018)</span></h4>
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Nanodegree Deep Learning</h3>
+                                <h4 class="university">Udacity <span class="year">(2019-2020)</span></h4>
+                                <a href="https://www.udacity.com/certificate/6A6S6UJU" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/67443b35-cfcc-4134-a8c8-80788c221e8a.svg" alt="Udacity Deep Learning Nano Degree" />
+                                </a>                                
+                            </div>
+                        </div>
+                    </div>
+                </aside>
                             
                 <aside class="languages aside section">
                     <div class="section-inner shadow-sm rounded">
@@ -318,43 +419,54 @@
                         <div class="content">
                             <ul class="list-unstyled">
                                 <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="title"><strong>Hindi:</strong></span>
                                     <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
-                                </li><!--//item-->
+                                </li>
                                 <li class="item">
-                                    <span class="title"><strong>Spanish:</strong></span>
-                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
-                                </li><!--//item-->
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span>
+                                </li>
                             </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                        </div>
+                    </div>
+                </aside>
                 
-                <aside class="blog aside section">
+                <!-- <aside class="blog aside section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Latest Blog Posts</h2>
-                        <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">Vanilla RSS plugin</a> to pull in your blog post feeds.</p>
+                        <p>Blog: <a href="" target="_blank">Redis Cluster Internals</a> </p>
+                        <p>Blog: <a href="" target="_blank">PG BOUNCER</a> </p>
+                        <p>Blog: <a href="" target="_blank">Keys, Certs, CAs, Signing, Encryption</a> </p>
                         <div id="rss-feeds" class="content">
 
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
+                        </div>
+                    </div>
+                </aside> -->
+                <!-- <aside class="blog aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Third Winner</h2>
+                        <p><a href="https://sgsits.ac.in/index.php/ce-latest-news/610-students-coding-events-and-achievements" target="_blank">Virtual Imagine Hackathon</a></p>
+                        <p>Principal Global Services, Pune</p>
+                        <img class="img-fluid project-image rounded shadow-sm" src="https://sgsits.ac.in/images/Virtual.png" alt="PGS hackathon" />
+                    </div>
+                </aside> -->
                 <aside class="list music aside section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Favourite coding music</h2>
+                        <h2 class="heading">Leetcode</h2>
                         <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
+                            <img class="img-fluid project-image rounded shadow-sm" src="https://leetcode-badge-sage.vercel.app/badge/kdharanidhar?theme=dark" alt="Leetcode Stats" />
+                            <a href="https://leetcode.com/u/kdharanidhar/" target="_blank"><i class="fas fa-external-link-alt"></i> More on Leetcode</a>
+                            <!-- <ul class="list-unstyled">
+                                <li><i class="fas fa-headphones"></i> <a href="#">https://leetcode.com/u/kdharanidhar/</a></li>
                                 <li><i class="fas fa-headphones"></i> <a href="#">Ut sollicitudin in mauris non auctor</a></li>
                                 <li><i class="fas fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
                                 <li><i class="fas fa-headphones"></i> <a href="#">Duis et felis bibendum</a></li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                            </ul> -->
+                        </div>
+                    </div>
+                </aside>
                 
-                <aside class="list conferences aside section">
+                <!-- <aside class="list conferences aside section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Conferences</h2>
                         <div class="content">
@@ -362,11 +474,11 @@
                                 <li><i class="far fa-calendar-alt"></i> <a href="#" target="_blank">WWDC 2030</a> (San Francisco)</li>
                                 <li><i class="far fa-calendar-alt"></i> <a href="#">Hive</a> (Seattle)</li>
                             </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                        </div>
+                    </div>
+                </aside> -->
                 
-                <aside class="credits aside section">
+                <!-- <aside class="credits aside section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Credits</h2>
                         <div class="content">
@@ -385,7 +497,7 @@
                             <hr/>
                             
                              <p class="pt-2">This Boootstrap portfolio template is handcrafted by UX designer <a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying Riley</a> at <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a> for developers and is <strong>FREE</strong> as long as you keep the footer attribution link.</p>
-                             <p>If you’d like to <strong>use this template without the attribution link</strong>, you can <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-portfolio-theme-for-web-developers/" target="_blank">buy the commercial license</a>.</p>
+                             <p>If you'd like to <strong>use this template without the attribution link</strong>, you can <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-portfolio-theme-for-web-developers/" target="_blank">buy the commercial license</a>.</p>
                              
                              <a class="btn btn-cta-primary btn-download" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/" target="_blank"><i class="fas fa-download"></i> I want to download</a>
                             <hr/>
@@ -395,27 +507,42 @@
                             
                             <a class="btn btn-cta-secondary btn-follow" href="https://twitter.com/3rdwave_themes" target="_blank"><i class="fab fa-twitter"></i> Follow on twitter</a>
                             
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+                        </div>
+                    </div>
+                </aside> -->
               
-            </div><!--//secondary-->    
-        </div><!--//row-->
-    </div><!--//masonry-->
+            </div>
+        </div>
+    </div>
     
-    <!-- ******FOOTER****** --> 
+    
     <footer class="footer">
         <div class="container text-center">
-                <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
+                
+                <!-- <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small> -->
+        </div>
+    </footer>
  
-    <!-- Javascript -->          
+    <!-- Javascript -->
+    <script>
+        document.body.setAttribute("data-theme", "dark");
+        var yoeElement = document.getElementById("yoe");
+        var currentDate = new Date();
+        var startDate = new Date('2021-08-01');
+        var diffMonths = (currentDate.getFullYear() - startDate.getFullYear()) * 12;
+        diffMonths = diffMonths - startDate.getMonth() + currentDate.getMonth() + 1;
+        var years = Math.floor(diffMonths / 12);
+        var months = diffMonths % 12;
+        if (diffMonths % 12 == 0){
+            yoeElement.innerHTML = years + "y"
+        }else{
+            yoeElement.innerHTML = years + "y " + months + "m";
+        }
+    </script>          
     <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
     <script type="text/javascript" src="assets/plugins/vanilla-rss/dist/rss.global.min.js"></script> 
-    <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script> 
+    <!-- <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script>  -->
     <!-- github calendar plugin -->
     <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
     <!-- github activity plugin -->
@@ -425,4 +552,3 @@
     <script type="text/javascript" src="assets/js/main.js"></script>            
 </body>
 </html> 
-
